@@ -49,20 +49,23 @@ function Footer() {
     };
   
     return (
-        <div style={contactSectionStyle}>
-        <a href="https://www.linkedin.com/in/david-montoto" target="_blank" rel="noreferrer" onMouseEnter={handleLinkedInHover} onMouseLeave={handleLinkedInLeave}>
-          <img src="./assets/T12Linked.png" alt="LinkedIn" style={{
-            ...imageStyle,
-            ...(isLinkedInHovered && imageHoverStyle),
-          }}/>
-        </a>
-        <a href="https://www.instagram.com/david_montoto/" target="_blank" rel="noreferrer" onMouseEnter={handleInstagramHover} onMouseLeave={handleInstagramLeave}>
-          <img src="./assets/T12Instagram.png" alt="Instagram" style={{
-            ...imageStyle,
-            ...(isInstagramHovered && imageHoverStyle),
-          }}/>
-        </a>
-      </div>
+        <div className="footerBox">
+          <h1>T12 Initiative</h1>
+          <div style={contactSectionStyle}>
+            <a href="https://www.linkedin.com/in/david-montoto" target="_blank" rel="noreferrer" onMouseEnter={handleLinkedInHover} onMouseLeave={handleLinkedInLeave}>
+              <img src="./assets/T12Linked.png" alt="LinkedIn" style={{
+                ...imageStyle,
+                ...(isLinkedInHovered && imageHoverStyle),
+              }}/>
+            </a>
+            <a href="https://www.instagram.com/david_montoto/" target="_blank" rel="noreferrer" onMouseEnter={handleInstagramHover} onMouseLeave={handleInstagramLeave}>
+              <img src="./assets/T12Instagram.png" alt="Instagram" style={{
+                ...imageStyle,
+                ...(isInstagramHovered && imageHoverStyle),
+              }}/>
+            </a>
+          </div>
+        </div>
     );
   }
   
