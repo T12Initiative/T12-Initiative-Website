@@ -2,13 +2,9 @@
   --pastel-blue: rgb(174, 222, 239);
 }
 
-/* #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
-  
-} */
+#root {
+  background-color: rgb(243, 243, 243);
+} 
 
 /* .logo {
   height: 6em;
@@ -45,6 +41,16 @@
 .read-the-docs {
   color: #888;
 } */
+
+.NavBar {
+  background-color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+.NavTitle {
+  font-size: 30px;
+}
 
 .footerBox {
   background-color: var(--pastel-blue);
