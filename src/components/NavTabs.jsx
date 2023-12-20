@@ -19,36 +19,36 @@ function NavTabs() {
       </li>
       <li className="nav-item">
         <Link
-          to="/About"
+          to="/What-We-Do"
           // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/About' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/What-We-Do' ? 'nav-link active' : 'nav-link'}
         >
           What We Do
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Blog"
+          to="/Who-We-Are"
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Blog' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Who-We-Are' ? 'nav-link active' : 'nav-link'}
         >
           Who We Are
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Contact"
+          to="/Take-Action"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Take-Action' ? 'nav-link active' : 'nav-link'}
         >
           Take Action
         </Link>
       </li>
       <li className="nav-item">
         <Link
-          to="/Contact"
+          to="/Apply"
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+          className={currentPage === '/Apply' ? 'nav-link active' : 'nav-link'}
         >
           Apply
         </Link>

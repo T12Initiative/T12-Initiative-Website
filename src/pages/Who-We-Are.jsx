@@ -1,4 +1,4 @@
-export default function Blog() {
+export default function WhoWeAre() {
   return (
     <div>
       <h1>Blog Page</h1>

@@ -7,9 +7,10 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import App from './App';
 import Error from './pages/Error';
 import Home from './pages/Home';
-import Contact from './pages/Contact';
-import About from './pages/About';
-import Blog from './pages/Blog';
+import WhatWeDo from './pages/What-We-Do';
+import WhoWeAre from './pages/Who-We-Are';
+import TakeAction from './pages/Take-Action';
+import Apply from './pages/Apply';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -23,16 +24,20 @@ const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: '/About',
-        element: <About />,
+        path: '/What-We-Do',
+        element: <WhatWeDo />,
       },
       {
-        path: '/Blog',
-        element: <Blog />,
+        path: '/Who-We-Are',
+        element: <WhoWeAre />,
       },
       {
-        path: '/Contact',
-        element: <Contact />,
+        path: '/Take-Action',
+        element: <TakeAction />,
+      },
+      {
+        path: '/Apply',
+        element: <Apply />,
       },
     ],
   },
