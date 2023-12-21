@@ -53,7 +53,10 @@
 }
 
 .OurMission,
-.Philanthropy {
+.Philanthropy,
+.Investing,
+.RiskManagement,
+.HowItWorks {
   display: flex;
   flex-wrap: wrap;
 
@@ -63,6 +66,15 @@
 .rightDiv {
   flex: 1;
   padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftDiv h1,
+.rightDiv h1 {
+  margin-top: 40px;
 }
 
 .rightDiv img,
