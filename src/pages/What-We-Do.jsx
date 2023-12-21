@@ -22,6 +22,8 @@ export default function WhatWeDo() {
         </Col>
       </Row>
 
+      <div className='HorizontalLine'></div>
+
       <Row className="Philanthropy">
         <Col xs={12} md={6} style={{ padding: '0' }}>
           <div className="leftDiv">
@@ -37,6 +39,8 @@ export default function WhatWeDo() {
           </div>
         </Col>
       </Row>
+
+      <div className='HorizontalLine'></div>
 
       <Row className="Investing">
         <Col xs={12} md={6}>
@@ -54,6 +58,8 @@ export default function WhatWeDo() {
         </Col>
       </Row>
 
+      <div className='HorizontalLine'></div>
+
       <Row className="RiskManagement">
         <Col xs={12} md={6} style={{ padding: '0' }}>
           <div className="leftDiv">
@@ -69,6 +75,8 @@ export default function WhatWeDo() {
           </div>
         </Col>
       </Row>
+
+      <div className='HorizontalLine'></div>
 
       <Row className="HowItWorks">
         <Col xs={12} md={6}>
