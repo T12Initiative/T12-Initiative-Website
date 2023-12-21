@@ -1,20 +1,42 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function WhatWeDo() {
   return (
-    <div>
-      <h1>Contact Page</h1>
-      <p>
-        Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
-        molestie urna. Aliquam semper ultrices varius. Aliquam faucibus sit amet
-        magna a ultrices. Aenean pellentesque placerat lacus imperdiet
-        efficitur. In felis nisl, luctus non ante euismod, tincidunt bibendum
-        mi. In a molestie nisl, eu sodales diam. Nam tincidunt lacus quis magna
-        posuere, eget tristique dui dapibus. Maecenas fermentum elementum
-        faucibus. Quisque nec metus vestibulum, egestas massa eu, sollicitudin
-        ipsum. Nulla facilisi. Sed ut erat ligula. Nam tincidunt nunc in nibh
-        dictum ullamcorper. Class aptent taciti sociosqu ad litora torquent per
-        conubia nostra, per inceptos himenaeos. Etiam ornare rutrum felis at
-        rhoncus. Etiam vel condimentum magna, quis tempor nulla.
-      </p>
-    </div>
+    <Container fluid>
+      <Row className="OurMission">
+        <Col xs={12} md={6}>
+          <div className="leftDiv">
+            <h1>Our Mission</h1>
+            <p>
+              {/* Your content here */}
+            </p>
+          </div>
+        </Col>
+        <Col xs={12} md={6} style={{ padding: '0' }}>
+          <div className="rightDiv">
+            <img src="./assets/OurMissionImage.jpg" alt="Our Mission" />
+          </div>
+        </Col>
+      </Row>
+
+      <Row className="Philanthropy">
+        <Col xs={12} md={6} style={{ padding: '0' }}>
+          <div className="leftDiv">
+            <img src="./assets/PhilanthropyImage.jpeg" alt="Philanthropy" />
+          </div>
+        </Col>
+        <Col xs={12} md={6}>
+          <div className="rightDiv">
+            <h1>Philanthropy</h1>
+            <p>
+              {/* Your content here */}
+            </p>
+          </div>
+        </Col>
+      </Row>
+    </Container>
   );
 }
