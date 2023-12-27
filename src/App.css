@@ -102,6 +102,12 @@
 
 .WhoWeAre {
   background-color: var(--pastel-blue);
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.OurTeam {
+  padding-left: 3.5%;
+  padding-top: 2.5%;
 }
 
 .Profiles {
@@ -109,6 +115,20 @@
   align-items: center;
   justify-content: center;
   text-align: center;
+  flex-direction: column;
+}
+
+.Profiles img {
+  width: 60%;
+}
+
+.Bio {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  
 }
 
 .footerBox {
