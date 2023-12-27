@@ -100,6 +100,17 @@
   border-radius: 20px;
 }
 
+.WhoWeAre {
+  background-color: var(--pastel-blue);
+}
+
+.Profiles {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
 .footerBox {
   background-color: var(--pastel-blue);
 }

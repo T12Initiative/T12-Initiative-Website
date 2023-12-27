@@ -1,22 +1,42 @@
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
+import Container from 'react-bootstrap/Container';
+import Row from 'react-bootstrap/Row';
+import Col from 'react-bootstrap/Col';
+
 export default function WhoWeAre() {
   return (
-    <div>
-      <h1>Blog Page</h1>
-      <p>
-        Donec a volutpat quam. Curabitur nec varius justo, sed rutrum ligula.
-        Curabitur pellentesque turpis sit amet eros iaculis, a mollis arcu
-        dictum. Ut vel ante eget massa ornare placerat. Etiam nisl orci, finibus
-        sodales volutpat et, hendrerit ut dolor. Suspendisse porta dictum nunc,
-        sed pretium risus rutrum eget. Nam consequat, ligula in faucibus
-        vestibulum, nisi justo laoreet risus, luctus luctus mi lacus sit amet
-        libero. Class aptent taciti sociosqu ad litora torquent per conubia
-        nostra, per inceptos himenaeos. Mauris pretium condimentum tellus eget
-        lobortis. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-        Donec placerat accumsan mi, ut congue neque placerat eu. Donec nec ipsum
-        in velit pellentesque vehicula sit amet at augue. Maecenas aliquam
-        bibendum congue. Pellentesque semper, lectus non ullamcorper iaculis,
-        est ligula suscipit velit, sed bibendum turpis dui in sapien.
-      </p>
-    </div>
+    <Container className='WhoWeAre' fluid>
+      <Row>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 1 content */}
+          <h1>Tai Takahashi</h1>
+          {/* Image, name, etc. */}
+        </Col>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 2 content */}
+          <h1>Matthew Kim</h1>
+          {/* Image, name, etc. */}
+        </Col>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 3 content */}
+          <h1>David Montoto</h1>
+          {/* Image, name, etc. */}
+        </Col>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 4 content */}
+          <h1>Bella Bolough</h1>
+          {/* Image, name, etc. */}
+        </Col>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 5 content */}
+          <h1>Roxane Cayrat</h1>
+          {/* Image, name, etc. */}
+        </Col>
+        <Col className='Profiles' lg={4} md={6} xs={12}>
+          {/* Card 6 content */}
+          {/* Image, name, etc. */}
+        </Col>
+      </Row>
+    </Container>
   );
 }
