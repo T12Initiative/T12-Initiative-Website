@@ -8,18 +8,18 @@ export default function WhoWeAre() {
     <Container className='WhoWeAre' fluid>
       <Row>
         <Col className='Profiles' lg={4} md={6} xs={12}>
-          {/* Card 1 content */}
           <h1>Tai Takahashi</h1>
-          {/* Image, name, etc. */}
+          <h2>President & Founder</h2>
+          <h3>View Bio</h3>
         </Col>
         <Col className='Profiles' lg={4} md={6} xs={12}>
           {/* Card 2 content */}
-          <h1>Matthew Kim</h1>
+          <h1>David Montoto</h1>
           {/* Image, name, etc. */}
         </Col>
         <Col className='Profiles' lg={4} md={6} xs={12}>
           {/* Card 3 content */}
-          <h1>David Montoto</h1>
+          <h1>Matthew Kim</h1>
           {/* Image, name, etc. */}
         </Col>
         <Col className='Profiles' lg={4} md={6} xs={12}>
@@ -34,6 +34,7 @@ export default function WhoWeAre() {
         </Col>
         <Col className='Profiles' lg={4} md={6} xs={12}>
           {/* Card 6 content */}
+          <h1>Victor Devillaire</h1>
           {/* Image, name, etc. */}
         </Col>
       </Row>
