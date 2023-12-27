@@ -45,13 +45,38 @@ export default function WhoWeAre() {
           <h3>View Bio</h3>
         </Col>
       </Row>
+
+      <div className='HorizontalLine'></div>
+
       <div className='Bio'>
         <h1>Tai Takahashi</h1>
         <h2>President, Founder & Chairman</h2>
         <Row>
-          
+          <Col lg={4} xs={12}>
+            <img src="./assets/TaiHeadshot.jpeg" alt="Tai Takahashi Headshot" />
+            <h3>test@gmail.com</h3>
+          </Col>
+          <Col lg={8} xs={12}>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </Col>
         </Row>
       </div>
+
+      <div className='HorizontalLine'></div>
+
+      <div className='Bio'>
+        <h1>David Montoto</h1>
+        <h2>Board of Directors</h2>
+        <Row>
+          <Col lg={4} xs={12}>
+            <img src="./assets/DavidHeadshot.jpg" alt="David Montoto Headshot" />
+          </Col>
+          <Col lg={8} xs={12}>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </Col>
+        </Row>
+      </div>
+
     </Container>
   );
 }
