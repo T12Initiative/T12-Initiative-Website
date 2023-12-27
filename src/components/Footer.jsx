@@ -28,7 +28,6 @@ function Footer() {
       animationIterationCount: '1',
       animationDirection: 'normal',
       animationFillMode: 'backwards',
-      marginBottom: '50px',
       marginTop: '20px',
       display: 'flex',
       alignItems: 'center',

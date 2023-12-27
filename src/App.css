@@ -69,10 +69,18 @@
 
 }
 
+.OurMission {
+  padding-top: 1.5%;
+}
+
+.HowItWorks {
+  padding-bottom: 1.5%;
+}
+
 .leftDiv,
 .rightDiv {
   flex: 1;
-  padding: 1%;
+  padding: 1%;  
   font-family: 'Times New Roman', Times, serif;
   display: flex;
   justify-content: center;
