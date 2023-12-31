@@ -59,6 +59,13 @@
   margin: 25px 5% 25px 5%;
 }
 
+.LastHorizontalLine {
+  width: 90%;
+  height: 1px;
+  background-color: black;
+  margin: 25px 5% 0px 5%;
+}
+
 .OurMission,
 .Philanthropy,
 .Investing,
