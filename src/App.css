@@ -92,11 +92,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .leftDiv h1,
 .rightDiv h1 {
   margin-top: 40px;
+}
+
+.leftDiv p,
+.rightDiv p {
+  font-size: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-bottom: 3%;
 }
 
 .rightDiv img,
@@ -154,7 +163,7 @@
 
 .Bio p {
   padding: 1% 10% 1% 5%;
-  font-size: 22px;
+  font-size: 25px;
   text-align: left; /* Add this line to override the text alignment */
 }
 
