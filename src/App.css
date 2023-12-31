@@ -4,6 +4,7 @@
 
 #root {
   background-color: rgb(243, 243, 243);
+  font-family: 'Times New Roman', Times, serif;
 } 
 
 /* .logo {
@@ -64,6 +65,28 @@
   height: 1px;
   background-color: black;
   margin: 25px 5% 0px 5%;
+}
+
+.TeamPhoto {
+  position: relative;
+  height: 90vh;
+  overflow: hidden;
+}
+
+.TeamPhotoText {
+  position: absolute;
+  top: 80%;
+  left: 60%;
+  color: white;
+  text-align: center;
+}
+
+.TeamPhotoText h1 {
+  font-size: 45px;
+}
+
+.SecondTeamText {
+  margin-left: 100px;
 }
 
 .OurMission,
