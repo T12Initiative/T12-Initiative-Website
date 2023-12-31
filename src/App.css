@@ -129,6 +129,14 @@
   width: 60%;
 }
 
+.Bio-link {
+  color: grey; 
+}
+
+.Bio-link:hover {
+  color: darkgrey; 
+}
+
 .Bio {
   height: auto;
   display: flex;
