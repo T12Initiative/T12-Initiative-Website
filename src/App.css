@@ -140,6 +140,12 @@
   text-align: left; /* Add this line to override the text alignment */
 }
 
+.LeftBio h3 {
+  text-align: left;
+  padding-left: 35px;
+  margin-top: 1%;
+}
+
 .footerBox {
   background-color: var(--pastel-blue);
 }
