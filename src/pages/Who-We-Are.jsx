@@ -35,7 +35,7 @@ export default function WhoWeAre() {
     marginTop: '15px',
     display: 'flex',
     alignItems: 'left',
-    paddingLeft: '35px',
+    paddingLeft: '13%',
   };
 
   const imageStyle = {
@@ -119,6 +119,8 @@ export default function WhoWeAre() {
           </Col>
           <Col lg={8} xs={12}>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </Col>
         </Row>
       </div>
@@ -129,10 +131,27 @@ export default function WhoWeAre() {
         <h1>David Montoto</h1>
         <h2>Board of Directors</h2>
         <Row>
-          <Col lg={4} xs={12}>
-            <img src="./assets/DavidHeadshot.jpg" alt="David Montoto Headshot" />
+          <Col className='LeftBio' lg={4} xs={12}>
+            <img src="./assets/DavidHeadshot.jpg" alt="Tai Takahashi Headshot" />
+            <h3>test@gmail.com</h3>
+            <div style={contactSectionStyle}>
+              <a href="https://www.linkedin.com/in/david-montoto" target="_blank" rel="noreferrer" onMouseEnter={handleLinkedInHover} onMouseLeave={handleLinkedInLeave}>
+                <img src="./assets/T12Linked.png" alt="LinkedIn" style={{
+                  ...imageStyle,
+                  ...(isLinkedInHovered && imageHoverStyle),
+                }}/>
+              </a>
+              <a href="https://www.instagram.com/david_montoto/" target="_blank" rel="noreferrer" onMouseEnter={handleInstagramHover} onMouseLeave={handleInstagramLeave}>
+                <img src="./assets/T12Instagram.png" alt="Instagram" style={{
+                  ...imageStyle,
+                  ...(isInstagramHovered && imageHoverStyle),
+                }}/>
+              </a>
+            </div>
           </Col>
           <Col lg={8} xs={12}>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
           </Col>
         </Row>
