@@ -36,21 +36,15 @@ export default function Home() {
           <Col>
           </Col>
         </Row>
-      </Container>
 
-      <div className="TeamPhoto">
-        <img
-          src="./assets/Path.png"
-          alt="Team Photo"
-          style={{
-            width: '100%',
-            height: '100%',
-            objectFit: 'cover',
-            objectPosition: 'center',
-            filter: 'brightness(70%)',
-          }}
-        />
-      </div>
+        <Row className='HomeRow'>
+          <Col className='leftDiv'>
+            <img src='./assets/Problem.png'></img>
+          </Col>
+          <Col className='RightDiv'>
+          </Col>
+        </Row>
+      </Container>
 
       <div className='Motivational'>
         <h2>Join us in building community and empowering students...</h2>
