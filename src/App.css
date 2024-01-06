@@ -98,7 +98,13 @@
 }
 
 .GiveToday {
-  
+  background-color: var(--pastel-blue);
+  color: black;
+  width: 30%;
+  height: 8%;
+  border-radius: 20px;
+  border-color: var(--pastel-blue);
+  font-size: 25px;
 }
 
 .OurMission,
