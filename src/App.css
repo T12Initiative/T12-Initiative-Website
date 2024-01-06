@@ -107,6 +107,20 @@
   font-size: 25px;
 }
 
+.HomeRightDiv,
+.HomeLeftDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.HomeRightDiv img,
+.HomeLeftDiv img {
+  height: auto;
+  width: 30%;
+}
+
 .OurMission,
 .Philanthropy,
 .Investing,

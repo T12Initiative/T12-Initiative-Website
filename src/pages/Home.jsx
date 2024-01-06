@@ -38,10 +38,15 @@ export default function Home() {
         </Row>
 
         <Row className='HomeRow'>
-          <Col className='leftDiv'>
+          <Col className='HomeRightDiv'>
             <img src='./assets/Problem.png'></img>
+            <h1>The Problem</h1>
+            <h2>Lack of access, support, or resources</h2>
           </Col>
-          <Col className='RightDiv'>
+          <Col className='HomeLeftDiv'>
+            <img src='./assets/Lightbulb.png'></img>
+            <h1>The Opportunity</h1>
+            <h2>Support, resources, and access can be given by those who care</h2>
           </Col>
         </Row>
       </Container>
