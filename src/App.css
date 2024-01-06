@@ -89,19 +89,25 @@
   margin-left: 100px;
 }
 
-.HomeRow {
+/* .HomeRow {
   height: 70vh;
 }
 
+.HomeRow2 {
+  height: 50vh;
+} */
+
 .FS {
+  font-size: 45px;
   margin-bottom: 30px;
+  font-weight: 550;
 }
 
 .GiveToday {
   background-color: var(--pastel-blue);
   color: black;
   width: 30%;
-  height: 8%;
+  height: 10%;
   border-radius: 20px;
   border-color: var(--pastel-blue);
   font-size: 25px;
@@ -113,12 +119,19 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 
 .HomeRightDiv img,
 .HomeLeftDiv img {
+  margin: 10px;
   height: auto;
   width: 30%;
+}
+
+.HomeRightDiv h2,
+.HomeLeftDiv h2 {
+  font-size: 28px;
 }
 
 .OurMission,

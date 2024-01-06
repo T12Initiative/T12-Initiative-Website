@@ -27,29 +27,47 @@ export default function Home() {
 
       <Container fluid>
         <Row className='HomeRow'>
-          <Col className='leftDiv'>
+          <Col className='leftDiv' xs={12} md={6}>
             <h1 className='FS'>Students in Finance and Philosophy</h1>
-            <p>The T12 Initiative gives current students financial literacy and the opportunity to analyze investments as a team</p>
-            <p>T12’s goal is to provide valuable experience, and in partnership with universities in San Diego, fund scholarships for incoming students.</p>
+            <p>The T12 Initiative gives current students literacy in financial markets and the opportunity to analyze investments and grow a portfolio as a team</p>
+            <p>T12’s goal is to provide valuable experience, and in partnership with universities in San Diego, fund merit-based scholarships for incoming students.</p>
             <Buton className='GiveToday'>Give Today</Buton>
           </Col>
-          <Col>
+          <Col xs={12} md={6}>
           </Col>
         </Row>
 
-        <Row className='HomeRow'>
-          <Col className='HomeRightDiv'>
+        <div className='HorizontalLine'></div>
+
+        <Row className='HomeRow2'>
+          <Col className='HomeRightDiv' xs={12} md={6}>
             <img src='./assets/Problem.png'></img>
             <h1>The Problem</h1>
             <h2>Lack of access, support, or resources</h2>
           </Col>
-          <Col className='HomeLeftDiv'>
+          <Col className='HomeLeftDiv' xs={12} md={6}>
             <img src='./assets/Lightbulb.png'></img>
             <h1>The Opportunity</h1>
             <h2>Support, resources, and access can be given by those who care</h2>
           </Col>
         </Row>
+
+        <Row className='HomeRow2'>
+          <Col className='HomeRightDiv' xs={12} md={6}>
+            <img src='./assets/Keys.png'></img>
+            <h1>Our Approach</h1>
+            <h2>Provide care, opportunity, and community to current and incoming students</h2>
+          </Col>
+          <Col className='HomeLeftDiv' xs={12} md={6}>
+            <img src='./assets/Leadership.png'></img>
+            <h1>The Work</h1>
+            <h2>We educate students about finance and working with a team,</h2>
+            <h2>While supporting those who will soon join us in university with scholarships to fund their</h2>
+          </Col>
+        </Row>
       </Container>
+
+      <div className='HorizontalLine'></div>
 
       <div className='Motivational'>
         <h2>Join us in building community and empowering students...</h2>
