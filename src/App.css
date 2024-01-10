@@ -98,9 +98,11 @@
 } */
 
 .FS {
-  font-size: 45px;
+  font-size: 42px;
   margin-bottom: 30px;
   font-weight: 550;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .GiveToday {
@@ -132,6 +134,18 @@
 .HomeRightDiv h2,
 .HomeLeftDiv h2 {
   font-size: 28px;
+}
+
+.MotivationalRight {
+  margin-left: 10%;
+  margin-top: 60px;
+}
+
+.MotivationalLeft {
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .OurMission,

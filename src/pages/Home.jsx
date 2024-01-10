@@ -70,8 +70,8 @@ export default function Home() {
       <div className='HorizontalLine'></div>
 
       <div className='Motivational'>
-        <h2>Join us in building community and empowering students...</h2>
-        <h2>...Because together we can inspire the leaders of tomorrow</h2>
+        <h2 className='MotivationalRight'>Join us in building community and empowering students...</h2>
+        <h2 className='MotivationalLeft'>...Because together we can inspire the leaders of tomorrow</h2>
       </div>
     </div>
   );
